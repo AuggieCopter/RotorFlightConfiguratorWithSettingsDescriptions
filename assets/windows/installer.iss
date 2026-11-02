@@ -9,14 +9,14 @@
 ; sourceFolder
 ; targetFolder
 
-#define ApplicationName "Rotorflight Configurator"
+#define ApplicationName "Rotorflight Configurator (Custom)"
 #define CompanyName "The Rotorflight open source project"
 #define CompanyUrl "https://github.com/rotorflight/"
 #define ExecutableFileName "rotorflight-configurator.exe"
 #define GroupName "Rotorflight"
-#define InstallerFileName "rotorflight-configurator-installer_" + version + "_" + archName
+#define InstallerFileName "rotorflight-configurator-custom-installer_" + version + "_" + archName
 #define SourcePath "..\..\" + sourceFolder
-#define TargetFolderName "Rotorflight-Configurator"
+#define TargetFolderName "Rotorflight-Configurator-Custom"
 #define UpdatesUrl "https://github.com/rotorflight/rotorflight-configurator/releases"
 
 [CustomMessages]
@@ -69,7 +69,8 @@ Filename: "pnputil.exe"; Parameters: "/add-driver ""{tmp}\stm32\STM32Bootloader.
 Filename: {app}\{cm:AppName}.exe; Description: {cm:LaunchProgram,{cm:AppName}}; Flags: nowait postinstall skipifsilent
 
 [Setup]
-AppId=0f5aab69-da40-4828-8efc-34d4bbb075fe
+; Differs from the official installer's AppId so both can be installed side by side
+AppId=241d71b4-7b15-4e18-857c-25067ded1778
 AppName={#ApplicationName}
 AppPublisher={#CompanyName}
 AppPublisherURL={#CompanyUrl}
