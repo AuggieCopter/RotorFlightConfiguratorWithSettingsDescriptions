@@ -50,7 +50,7 @@
     },
     "axisYAW": {
         "message": "YAW",
-        "description": "Yaw axis in capital letters"
+        "description": "Yaw (Tail) axis in capital letters"
     },
     "axisCOLLECTIVE": {
         "message": "COLLECTIVE",
@@ -1259,7 +1259,7 @@
         "message": "Pitch Degrees"
     },
     "configurationBoardAlignmentYaw": {
-        "message": "Yaw Degrees"
+        "message": "Yaw (Tail) Degrees"
     },
     "configurationSensorAlignmentGyro": {
         "message": "GYRO Alignment"
@@ -1816,10 +1816,10 @@
         "message": "How far the roll and pitch channel values must move from center before it's considered an input."
     },
     "receiverYawDeadband": {
-        "message": "Yaw Deadband"
+        "message": "Yaw (Tail) Deadband"
     },
     "receiverHelpYawDeadband": {
-        "message": "How far the yaw channel value must move from center before it's considered an input."
+        "message": "How far the Yaw (Tail) channel value must move from center before it's considered an input."
     },
     "receiverTelemetrySettings": {
         "message": "Telemetry"
@@ -2038,7 +2038,7 @@
         "message": "Roll Control"
     },
     "receiverTelemetrySensor_YAW_CONTROL": {
-        "message": "Yaw Control"
+        "message": "Yaw (Tail) Control"
     },
     "receiverTelemetrySensor_COLLECTIVE_CONTROL": {
         "message": "Collective Control"
@@ -2423,7 +2423,7 @@
         "message": "Roll Rate"
     },
     "adjustmentsFunctionYawRate": {
-        "message": "Yaw Rate"
+        "message": "Yaw (Tail) Rate"
     },
     "adjustmentsFunctionPitchRCRate": {
         "message": "Pitch RC Rate"
@@ -2432,7 +2432,7 @@
         "message": "Roll RC Rate"
     },
     "adjustmentsFunctionYawRCRate": {
-        "message": "Yaw RC Rate"
+        "message": "Yaw (Tail) RC Rate"
     },
     "adjustmentsFunctionPitchRCExpo": {
         "message": "Pitch RC Expo"
@@ -2441,7 +2441,7 @@
         "message": "Roll RC Expo"
     },
     "adjustmentsFunctionYawRCExpo": {
-        "message": "Yaw RC Expo"
+        "message": "Yaw (Tail) RC Expo"
     },
     "adjustmentsFunctionPitchP": {
         "message": "Pitch P-gain"
@@ -2468,34 +2468,34 @@
         "message": "Roll F-gain"
     },
     "adjustmentsFunctionYawP": {
-        "message": "Yaw P-gain"
+        "message": "Yaw (Tail) P-gain"
     },
     "adjustmentsFunctionYawI": {
-        "message": "Yaw I-gain"
+        "message": "Yaw (Tail) I-gain"
     },
     "adjustmentsFunctionYawD": {
-        "message": "Yaw D-gain"
+        "message": "Yaw (Tail) D-gain"
     },
     "adjustmentsFunctionYawF": {
-        "message": "Yaw F-gain"
+        "message": "Yaw (Tail) F-gain"
     },
     "adjustmentsFunctionYawCWStopGain": {
-        "message": "Yaw CW Stop Gain"
+        "message": "Yaw (Tail) CW Stop Gain"
     },
     "adjustmentsFunctionYawCCWStopGain": {
-        "message": "Yaw CCW Stop Gain"
+        "message": "Yaw (Tail) CCW Stop Gain"
     },
     "adjustmentsFunctionYawCyclicFF": {
-        "message": "Yaw Cyclic Precomp"
+        "message": "Yaw (Tail) Cyclic Precomp"
     },
     "adjustmentsFunctionYawCollectiveFF": {
-        "message": "Yaw Collective Precomp"
+        "message": "Yaw (Tail) Collective Precomp"
     },
     "adjustmentsFunctionYawCollectiveDyn": {
-        "message": "Yaw Collective Impulse FF"
+        "message": "Yaw (Tail) Collective Impulse FF"
     },
     "adjustmentsFunctionYawCollectiveDecay": {
-        "message": "Yaw Collective Impulse FF Decay"
+        "message": "Yaw (Tail) Collective Impulse FF Decay"
     },
     "adjustmentsFunctionPitchCollectiveFF": {
         "message": "Pitch Collective Precomp"
@@ -2507,7 +2507,7 @@
         "message": "Roll Gyro Cutoff"
     },
     "adjustmentsFunctionYawGyroCutoff": {
-        "message": "Yaw Gyro Cutoff"
+        "message": "Yaw (Tail) Gyro Cutoff"
     },
     "adjustmentsFunctionPitchDtermCutoff": {
         "message": "Pitch D-term Cutoff"
@@ -2516,7 +2516,7 @@
         "message": "Roll D-term Cutoff"
     },
     "adjustmentsFunctionYawDtermCutoff": {
-        "message": "Yaw D-term Cutoff"
+        "message": "Yaw (Tail) D-term Cutoff"
     },
     "adjustmentsFunctionRescueClimbCollective": {
         "message": "Rescue Climb Collective"
@@ -2576,7 +2576,7 @@
         "message": "Roll B-gain"
     },
     "adjustmentsFunctionYawB": {
-        "message": "Yaw B-gain"
+        "message": "Yaw (Tail) B-gain"
     },
     "adjustmentsFunctionPitchO": {
         "message": "Pitch O-gain"
@@ -2600,10 +2600,10 @@
         "message": "Accelerometer Roll Trim"
     },
     "adjustmentsFunctionYawInertiaPrecompGain": {
-        "message": "Yaw Inertia Precomp Gain"
+        "message": "Yaw (Tail) Inertia Precomp Gain"
     },
     "adjustmentsFunctionYawInertiaPrecompCutoff": {
-        "message": "Yaw Inertia Precomp Cutoff"
+        "message": "Yaw (Tail) Inertia Precomp Cutoff"
     },
     "adjustmentsFunctionPitchSetpointBoostGain": {
         "message": "Pitch Setpoint Boost Gain"
@@ -2612,22 +2612,22 @@
         "message": "Roll Setpoint Boost Gain"
     },
     "adjustmentsFunctionYawSetpointBoostGain": {
-        "message": "Yaw Setpoint Boost Gain"
+        "message": "Yaw (Tail) Setpoint Boost Gain"
     },
     "adjustmentsFunctionCollectiveSetpointBoostGain": {
         "message": "Collective Setpoint Boost Gain"
     },
     "adjustmentsFunctionYawDynCeilingGain": {
-        "message": "Yaw Dynamic Ceiling Gain"
+        "message": "Yaw (Tail) Dynamic Ceiling Gain"
     },
     "adjustmentsFunctionYawDynDeadbandGain": {
-        "message": "Yaw Dynamic Deadband Gain"
+        "message": "Yaw (Tail) Dynamic Deadband Gain"
     },
     "adjustmentsFunctionYawDynDeadbandFilter": {
-        "message": "Yaw Dynamic Deadband Filter"
+        "message": "Yaw (Tail) Dynamic Deadband Filter"
     },
     "adjustmentsFunctionYawPrecompCutoff": {
-        "message": "Yaw Precomp Cutoff"
+        "message": "Yaw (Tail) Precomp Cutoff"
     },
     "adjustmentsFunctionGovIdleThrottle": {
         "message": "Governor Idle Throttle"
@@ -2645,7 +2645,7 @@
         "message": "Governor Headspeed"
     },
     "adjustmentsFunctionGovYawFF": {
-        "message": "Governor Yaw F-gain"
+        "message": "Governor Yaw (Tail) F-gain"
     },
     "servoHelp": {
         "message": "Servo 101<ul><li>First check the servo directions. Check cyclic servos by giving some collective, for example. Reverse servos if needed.</li><li>Level the servo arms by enabling <i> Servo Override</i> and adjusting <i>Center</i>. The servo arm should be perpendicular to the main shaft in this position.</li><li>Adjust <i>Scale</i> so that servo angles are correct. Specify an angle of 30&deg; for a servo under <i>Servo Override</i>. The servo should now move to 30&deg;. If it's less, increase the <i>Scale</i> for that servo. If it's more, decrease it.</li><li>You can limit or extend the servo movement range by adjusting <i>Min</i> or <i>Max</i>. Do this only if there's a mechanical issue, like servo binding. Use the mixer to limit roll/pitch/collective.</li></ul>"
@@ -2768,7 +2768,7 @@
         "message": "<span class=\"message-negative\">Warning:</span> Some settings require System Reboot to take affect!"
     },
     "mixerMotorisedTailCalibrationNote": {
-        "message": "<span class=\"message-negative\">Warning:</span> Yaw calibration should be 100% when using a motorised tail. Do not change this value unless you know what you are doing."
+        "message": "<span class=\"message-negative\">Warning:</span> Yaw (Tail) calibration should be 100% when using a motorised tail. Do not change this value unless you know what you are doing."
     },
     "mixerMainRotorSettings": {
         "message": "Main Rotor Settings"
@@ -2849,37 +2849,37 @@
         "message": "Main Rotor Geometry"
     },
     "mixerCyclicCalibration": {
-        "message": "Cyclic calibration [%]"
+        "message": "Cyclic calibration [%] (Set Mixer override's Roll to 8° and adjust until it matches 8° pitch)"
     },
     "mixerCyclicCalibrationHelp": {
         "message": "Adjust the cyclic gain to match the mechanical gain in the head design."
     },
     "mixerCollectiveCalibration": {
-        "message": "Collective calibration [%]"
+        "message": "Collective calibration [%] (Set Mixer override's Collective to 12° and adjust until it matches 12° pitch)"
     },
     "mixerCollectiveCalibrationHelp": {
         "message": "Adjust the collective gain to match the mechanical gain in the head design."
     },
     "mixerCollectiveGeoCorrection": {
-        "message": "Collective Geometry Correction [%]"
+        "message": "Collective Geometry Correction [%] (After Collective calibration set Mixer override's Collective to 0° and adjust until it matches 0° pitch)"
     },
     "mixerCollectiveGeoCorrectionHelp": {
         "message": "Adjust until the collective positive and negative deflections are equal."
     },
     "mixerTotalPitchLimit": {
-        "message": "Total blade pitch limit [&deg;]"
+        "message": "Total blade pitch limit [&deg;] Maximum amount of blade collective+pitch."
     },
     "mixerTotalPitchLimitHelp": {
         "message": "Maximum amount of total cyclic + collective blade pitch."
     },
     "mixerCyclicLimit": {
-        "message": "Cyclic blade pitch limit [&deg;]"
+        "message": "Cyclic blade pitch limit [&deg;] (Max angle from cyclic)"
     },
     "mixerCyclicLimitHelp": {
         "message": "Maximum amount of cyclic blade pitch."
     },
     "mixerCollectiveLimit": {
-        "message": "Collective blade pitch limit [&deg;]"
+        "message": "Collective blade pitch limit [&deg;] (Max angle from pitch)"
     },
     "mixerCollectiveLimitHelp": {
         "message": "Maximum amount of collective blade pitch."
@@ -2906,13 +2906,13 @@
         "message": "Corrects cyclic to collective swashplate interaction.<br /><br />At full positive and negative collective pitch, adjust the corresponding values until the swashplate pivot ball remains stationary when increasing cyclic input."
     },
     "mixerSwashRollTrim": {
-        "message": "Roll trim [%]"
+        "message": "Roll trim [%] (Set Mixer override's Roll Pitch and collective to 0° and adjust until swashplate is level in the aileron direction)"
     },
     "mixerSwashPitchTrim": {
-        "message": "Pitch trim [%]"
+        "message": "Pitch trim [%] (Set Mixer override's Roll Pitch and collective to 0° and adjust until pitch angle is zero)"
     },
     "mixerSwashCollectiveTrim": {
-        "message": "Collective trim [%]"
+        "message": "Collective trim [%] (Set Mixer override's Roll Pitch and collective to 0° and adjust until pitch angle is zero)"
     },
     "mixerSwashTrimHelp": {
         "message": "Trim for swashplate linkages. Use only if the linkages are not adjustable."
@@ -2936,37 +2936,37 @@
         "message": "Bidirectional"
     },
     "mixerTailRotorDirection": {
-        "message": "Yaw Control Direction"
+        "message": "Tail Control Direction"
     },
     "mixerTailRotorDirectionHelp": {
-        "message": "Depending on the tail rotor direction and ESC/servo configuration, the yaw direction may be reversed."
+        "message": "Depending on the tail rotor direction and ESC/servo configuration, the Yaw (Tail) direction may be reversed."
     },
     "mixerTailRotorCalibration": {
-        "message": "Yaw calibration [%]"
+        "message": "Tail calibration [%] (Set Mixer override's Yaw to 23 dergees and then change until rabit-eared tail blades are 45 degrees apart)"
     },
     "mixerTailRotorCalibrationHelp": {
-        "message": "Adjust the yaw gain to match the mechanical gain. Usually around 50-150% for servo driven tails, but can be wildly different for motorised tail rotors."
+        "message": "Adjust the Tail gain to match the mechanical gain. Usually around 50-150% for servo driven tails, but can be wildly different for motorised tail rotors."
     },
     "mixerTailRotorMinYaw": {
-        "message": "CW Yaw Blade Angle Limit"
+        "message": "Left Tail max limit (Set Mixer override's Yaw to -60 and then change until it hits mechanical limit)"
     },
     "mixerTailRotorMinYawHelp": {
         "message": "An angle limit for clockwise yaw."
     },
     "mixerTailRotorMaxYaw": {
-        "message": "CCW Yaw Blade Angle Limit"
+        "message": "Right Tail max limit (Set Mixer override's Yaw to 60 and then change until it hits mechanical limit)"
     },
     "mixerTailRotorMaxYawHelp": {
         "message": "An angle limit for counter-clockwise yaw."
     },
     "mixerTailMotorMinYaw": {
-        "message": "CW yaw limit [%]"
+        "message": "Right Tail limit [%]"
     },
     "mixerTailMotorMinYawHelp": {
         "message": "A limit for clockwise yaw."
     },
     "mixerTailMotorMaxYaw": {
-        "message": "CCW yaw limit [%]"
+        "message": "Left Tail limit [%]"
     },
     "mixerTailMotorMaxYawHelp": {
         "message": "A limit for counter-clockwise yaw."
@@ -2978,16 +2978,16 @@
         "message": "This is the minimum throttle signal sent to the tail motor. This should be set just high enough that the motor does not stop"
     },
     "mixerTailRotorCenterTrim": {
-        "message": "Yaw center trim"
+        "message": "Tail center trim (Set Mixer override's Yaw to 0 and then change until both rabit-eared tail blades are parallel)"
     },
     "mixerTailRotorCenterTrimHelp": {
-        "message": "Set tail rotor trim to achieve zero blade pitch with 0° yaw mixer override."
+        "message": "Set tail rotor trim to achieve zero blade pitch with 0° Yaw (Tail) mixer override."
     },
     "mixerTailMotorCenterTrim": {
-        "message": "Yaw center offset [%]"
+        "message": "Tail center offset [%]"
     },
     "mixerTailMotorCenterTrimHelp": {
-        "message": "Set tail motor throttle value for zero yaw command."
+        "message": "Set tail motor throttle value for zero Yaw (Tail) command."
     },
     "mixerSwashLinkTrim": {
         "message": "Swashplate Trims"
@@ -3008,7 +3008,7 @@
         "message": "This feature is used for setting up the rotor and is part of the <strong>Mixer Calibration</strong> process. When the bypass enable is active the mixer can be commanded to the requested positions directly."
     },
     "mixerOverrideEnableSwitch": {
-        "message": "<strong>Enable Mixer Override</strong>"
+        "message": "<strong>Mixer Override (for 0 pitch)</strong>"
     },
     "mixerOverrideEnableSwitchText": {
         "message": "Mixer Override forces the mixer inputs to arbitrary positions for setup purposes. If Passthrough is enabled, the positions are controlled by your TX. The override values are not saved, and will be reset in reboot."
@@ -3734,7 +3734,7 @@
         "message": "Yaw"
     },
     "govYawPrecompHelp": {
-        "message": "Yaw precompensation weight. Determines how much Yaw is mixed into the feedforward. This helps the governor to maintain the headspeed proactively. Usually 20..100"
+        "message": "Tail precompensation weight. Determines how much Tail is mixed into the feedforward. This helps the governor to maintain the headspeed proactively. Usually 20..100"
     },
     "govCyclicPrecomp": {
         "message": "Cyclic"
@@ -4766,7 +4766,7 @@
         "message": "Error Limit for Pitch Axis [&deg;]"
     },
     "profilesErrorLimitYaw": {
-        "message": "Error Limit for Yaw Axis [&deg;]"
+        "message": "Error Limit for Yaw (Tail) Axis [&deg;]"
     },
     "profilesOffsetLimitHelp": {
         "message": "Hard limit for the High Speed Integral offset angle in the PID loop. The absolute offset and thus the O-term will never go above these limits."
@@ -4811,19 +4811,19 @@
         "message": "Error Decay time [s]"
     },
     "profilesErrorDecayTimeYawHelp": {
-        "message": "Time constant for bleeding off the accumulated yaw error (I-term)."
+        "message": "Time constant for bleeding off the accumulated Yaw (Tail) error (I-term)."
     },
     "profilesErrorDecayLimitYaw": {
         "message": "Error Decay maximum rate [&deg;/s]"
     },
     "profilesErrorDecayLimitYawHelp": {
-        "message": "Maximum bleed-off speed for the accumulated yaw error (I-term)."
+        "message": "Maximum bleed-off speed for the accumulated Yaw (Tail) error (I-term)."
     },
     "profilesErrorRotation": {
         "message": "Piro Compensation"
     },
     "profilesErrorRotationHelp": {
-        "message": "Rotates the current Roll and Pitch Error Terms around Yaw when the craft rotates. This improves piro control and helps the model to travel in a straight line while pirouetting."
+        "message": "Rotates the current Roll and Pitch Error Terms around Yaw (Tail) when the craft rotates. This improves piro control and helps the model to travel in a straight line while pirouetting."
     },
     "profilesItermRelax": {
         "message": "I-Term Relax"
@@ -4868,7 +4868,7 @@
         "message": "Pitch Bandwidth"
     },
     "profilesGyroCutoffYaw": {
-        "message": "Yaw Bandwidth"
+        "message": "Yaw (Tail) Bandwidth"
     },
     "profilesDtermCutoffHelp": {
         "message": "D-term Cutoff Frequency in Hz"
@@ -4880,7 +4880,7 @@
         "message": "Pitch D-term Cutoff"
     },
     "profilesDtermCutoffYaw": {
-        "message": "Yaw D-term Cutoff"
+        "message": "Yaw (Tail) D-term Cutoff"
     },
     "profilesBtermCutoffHelp": {
         "message": "B-term Cutoff Frequency in Hz"
@@ -4892,7 +4892,7 @@
         "message": "Pitch B-term Cutoff"
     },
     "profilesBtermCutoffYaw": {
-        "message": "Yaw B-term Cutoff"
+        "message": "Yaw (Tail) B-term Cutoff"
     },
     "profilesLevelingSettings": {
         "message": "Auto-leveling Settings"
@@ -4940,22 +4940,22 @@
         "message": "Center Offset for tail motor or servo"
     },
     "profilesYawStopGainCW": {
-        "message": "CW Yaw Stop Gain"
+        "message": "Right Yaw (Tail) Stop Gain"
     },
     "profilesYawStopGainCWHelp": {
         "message": "Stop gain (PD) for clock-wise rotation. Typical range 50..200."
     },
     "profilesYawStopGainCCW": {
-        "message": "CCW Yaw Stop Gain"
+        "message": "Left Yaw (Tail) Stop Gain"
     },
     "profilesYawStopGainCCWHelp": {
         "message": "Stop gain (PD) for counter clock-wise rotation. Typical range 50..200."
     },
     "profilesYawPrecompCutoff": {
-        "message": "Yaw Precomp Cutoff [Hz]"
+        "message": "Yaw (Tail) Precomp Cutoff [Hz]"
     },
     "profilesYawPrecompCutoffHelp": {
-        "message": "Frequency limit for all yaw precompensation actions"
+        "message": "Frequency limit for all Yaw (Tail) precompensation actions"
     },
     "profilesYawFFCyclicGain": {
         "message": "Cyclic Feedforward Gain"
@@ -4985,7 +4985,7 @@
         "message": "Inertia Precomp Gain"
     },
     "profilesYawInertiaPrecompGainHelp": {
-        "message": "The strength of the main rotor's inertia. Larger values result in more precomp being applied to the yaw control."
+        "message": "The strength of the main rotor's inertia. Larger values result in more precomp being applied to the Yaw (Tail) control."
     },
     "profilesYawInertiaPrecompCutoff": {
         "message": "Inertia Precomp Cutoff"
@@ -5591,7 +5591,7 @@
         "message": "Configure the failsafe behavior of each channel.<br><strong>Auto:</strong> Sets channel to a safe value. Center for Roll, Pitch, Yaw, Collective. Low for Throttle.<br><strong>Hold:</strong> Holds channel at the last known position.<br><strong>Set:</strong> Sets channel to the specified value [μs]."
     },
     "failsafeChannelFallbackSettingsAuto": {
-        "message": "<strong>Auto</strong> means Roll, Pitch and Yaw to center and Throttle low. <strong>Hold</strong> means maintain the last good value received"
+        "message": "<strong>Auto</strong> means Roll, Pitch and Yaw (Tail) to center and Throttle low. <strong>Hold</strong> means maintain the last good value received"
     },
     "failsafeChannelFallbackSettingsHold": {
         "message": "<strong>Hold</strong> means maintain the last good value received. <strong>Set</strong> means the value given here will be used"
@@ -6368,7 +6368,7 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDYaw": {
-        "message": "Yaw axis PID gains"
+        "message": "Yaw (Tail) axis PID gains"
     },
     "osdTextElementPower": {
         "message": "Power",
