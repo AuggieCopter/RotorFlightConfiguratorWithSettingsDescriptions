@@ -45,11 +45,11 @@
         "description": "Roll axis in capital letters"
     },
     "axisPITCH": {
-        "message": "PITCH",
-        "description": "Pitch axis in capital letters"
+        "message": "PITCH (Elevator)",
+        "description": "Pitch (Elevator) axis in capital letters"
     },
     "axisYAW": {
-        "message": "YAW",
+        "message": "YAW (Tail)",
         "description": "Yaw (Tail) axis in capital letters"
     },
     "axisCOLLECTIVE": {
@@ -60,10 +60,10 @@
         "message": "Roll"
     },
     "titlePitch": {
-        "message": "Pitch"
+        "message": "Pitch (Elevator)"
     },
     "titleYaw": {
-        "message": "Yaw"
+        "message": "Yaw (Tail)"
     },
     "titleCollective": {
         "message": "Collective"
@@ -430,7 +430,7 @@
         "message": "Beepers"
     },
     "tabProfiles": {
-        "message": "Profiles"
+        "message": "Profiles (Banks)"
     },
     "tabRates": {
         "message": "Rates"
@@ -1256,10 +1256,10 @@
         "message": "Roll Degrees"
     },
     "configurationBoardAlignmentPitch": {
-        "message": "Pitch Degrees"
+        "message": "Pitch (Elevator) Degrees"
     },
     "configurationBoardAlignmentYaw": {
-        "message": "Yaw (Tail) Degrees"
+        "message": "Yaw (Tail) Degrees (Cables facing forward = 0 cables facing back = 180)"
     },
     "configurationSensorAlignmentGyro": {
         "message": "GYRO Alignment"
@@ -1614,7 +1614,7 @@
         "message": "Copy values from the current rateprofile to"
     },
     "dialogCopyProfileTitle": {
-        "message": "Copy Profile Values"
+        "message": "Copy Profile (Bank) Values"
     },
     "dialogCopyProfileNote": {
         "message": "All values on the destination profile will be overwritten.<br>This operation can not be reverted."
@@ -1626,7 +1626,7 @@
         "message": "Cancel"
     },
     "dialogResetProfileTitle": {
-        "message": "Reset Profile Values"
+        "message": "Reset Profile (Bank) Values"
     },
     "dialogResetProfileNote": {
         "message": "All values on the current profile will be reset to defaults.<br>This operation can not be reverted."
@@ -1641,7 +1641,7 @@
         "message": "Cancel"
     },
     "dialogProfileChangeTitle": {
-        "message": "<span class=\"message-negative\">Warning:</span> Profile Changed"
+        "message": "<span class=\"message-negative\">Warning:</span> Profile (Bank) Changed"
     },
     "dialogProfileChangeNote": {
         "message": "The active profile was changed before changes were saved. All changes are <b>lost</b>."
@@ -1650,22 +1650,22 @@
         "message": "OK"
     },
     "profilesSubTab1": {
-        "message": "Profile #1"
+        "message": "Profile #1 (Bank 1)"
     },
     "profilesSubTab2": {
-        "message": "Profile #2"
+        "message": "Profile #2 (Bank 2)"
     },
     "profilesSubTab3": {
-        "message": "Profile #3"
+        "message": "Profile #3 (Bank 3)"
     },
     "profilesSubTab4": {
-        "message": "Profile #4"
+        "message": "Profile #4 (Bank 4)"
     },
     "profilesSubTab5": {
-        "message": "Profile #5"
+        "message": "Profile #5 (Bank 5)"
     },
     "profilesSubTab6": {
-        "message": "Profile #6"
+        "message": "Profile #6 (Bank 6)"
     },
     "profilesPIDModeZeroWarning": {
         "message": "<span class=\"message-negative\">Warning:</span> The PID Controlled is in the <b>Passthrough Mode</b>.<br>Please use the <b>CLI</b> to change the PID settings."
@@ -1900,7 +1900,7 @@
         "message": "Flight Mode"
     },
     "receiverTelemetrySensor_PITCH": {
-        "message": "Pitch angle (attitude)"
+        "message": "Pitch (Elevator) angle (attitude)"
     },
     "receiverTelemetrySensor_ROLL": {
         "message": "Roll angle (attitude)"
@@ -2032,7 +2032,7 @@
         "message": "Control (hi-res)"
     },
     "receiverTelemetrySensor_PITCH_CONTROL": {
-        "message": "Pitch Control"
+        "message": "Pitch (Elevator) Control"
     },
     "receiverTelemetrySensor_ROLL_CONTROL": {
         "message": "Roll Control"
@@ -2402,22 +2402,22 @@
         "message": "No changes"
     },
     "adjustmentsFunctionRateProfile": {
-        "message": "Rate Profile Selection"
+        "message": "Rate Profile (Bank) Selection"
     },
     "adjustmentsFunctionPIDProfile": {
-        "message": "Profile Selection"
+        "message": "Profile (Bank) Selection"
     },
     "adjustmentsFunctionLEDProfile": {
-        "message": "LED Profile Selection"
+        "message": "LED Profile (Bank) Selection"
     },
     "adjustmentsFunctionOSDProfile": {
-        "message": "OSD Profile Selection"
+        "message": "OSD Profile (Bank) Selection"
     },
     "adjustmentsFunctionBatteryProfile": {
-        "message": "Battery Profile Selection"
+        "message": "Battery Profile (Bank) Selection"
     },
     "adjustmentsFunctionPitchRate": {
-        "message": "Pitch Rate"
+        "message": "Pitch (Elevator) Rate"
     },
     "adjustmentsFunctionRollRate": {
         "message": "Roll Rate"
@@ -2426,7 +2426,7 @@
         "message": "Yaw (Tail) Rate"
     },
     "adjustmentsFunctionPitchRCRate": {
-        "message": "Pitch RC Rate"
+        "message": "Pitch (Elevator) RC Rate"
     },
     "adjustmentsFunctionRollRCRate": {
         "message": "Roll RC Rate"
@@ -2435,7 +2435,7 @@
         "message": "Yaw (Tail) RC Rate"
     },
     "adjustmentsFunctionPitchRCExpo": {
-        "message": "Pitch RC Expo"
+        "message": "Pitch (Elevator) RC Expo"
     },
     "adjustmentsFunctionRollRCExpo": {
         "message": "Roll RC Expo"
@@ -2444,16 +2444,16 @@
         "message": "Yaw (Tail) RC Expo"
     },
     "adjustmentsFunctionPitchP": {
-        "message": "Pitch P-gain"
+        "message": "Pitch (Elevator) P-gain"
     },
     "adjustmentsFunctionPitchI": {
-        "message": "Pitch I-gain"
+        "message": "Pitch (Elevator) I-gain"
     },
     "adjustmentsFunctionPitchD": {
-        "message": "Pitch D-gain"
+        "message": "Pitch (Elevator) D-gain"
     },
     "adjustmentsFunctionPitchF": {
-        "message": "Pitch F-gain"
+        "message": "Pitch (Elevator) F-gain"
     },
     "adjustmentsFunctionRollP": {
         "message": "Roll P-gain"
@@ -2501,7 +2501,7 @@
         "message": "Pitch Collective Precomp"
     },
     "adjustmentsFunctionPitchGyroCutoff": {
-        "message": "Pitch Gyro Cutoff"
+        "message": "Pitch (Elevator) Gyro Cutoff"
     },
     "adjustmentsFunctionRollGyroCutoff": {
         "message": "Roll Gyro Cutoff"
@@ -2510,7 +2510,7 @@
         "message": "Yaw (Tail) Gyro Cutoff"
     },
     "adjustmentsFunctionPitchDtermCutoff": {
-        "message": "Pitch D-term Cutoff"
+        "message": "Pitch (Elevator) D-term Cutoff"
     },
     "adjustmentsFunctionRollDtermCutoff": {
         "message": "Roll D-term Cutoff"
@@ -2570,7 +2570,7 @@
         "message": "Governor Collective Precomp"
     },
     "adjustmentsFunctionPitchB": {
-        "message": "Pitch B-gain"
+        "message": "Pitch (Elevator) B-gain"
     },
     "adjustmentsFunctionRollB": {
         "message": "Roll B-gain"
@@ -2579,7 +2579,7 @@
         "message": "Yaw (Tail) B-gain"
     },
     "adjustmentsFunctionPitchO": {
-        "message": "Pitch O-gain"
+        "message": "Pitch (Elevator) O-gain"
     },
     "adjustmentsFunctionRollO": {
         "message": "Roll O-gain"
@@ -2606,7 +2606,7 @@
         "message": "Yaw (Tail) Inertia Precomp Cutoff"
     },
     "adjustmentsFunctionPitchSetpointBoostGain": {
-        "message": "Pitch Setpoint Boost Gain"
+        "message": "Pitch (Elevator) Setpoint Boost Gain"
     },
     "adjustmentsFunctionRollSetpointBoostGain": {
         "message": "Roll Setpoint Boost Gain"
@@ -2909,7 +2909,7 @@
         "message": "Roll trim [%] (Set Mixer override's Roll Pitch and collective to 0° and adjust until swashplate is level in the aileron direction)"
     },
     "mixerSwashPitchTrim": {
-        "message": "Pitch trim [%] (Set Mixer override's Roll Pitch and collective to 0° and adjust until pitch angle is zero)"
+        "message": "Pitch (Elevator) trim [%] (Set Mixer override's Roll Pitch and collective to 0° and adjust until pitch angle is zero)"
     },
     "mixerSwashCollectiveTrim": {
         "message": "Collective trim [%] (Set Mixer override's Roll Pitch and collective to 0° and adjust until pitch angle is zero)"
@@ -3083,13 +3083,13 @@
         "message": "Roll"
     },
     "mixerInputStabilizedPitch": {
-        "message": "Pitch"
+        "message": "Pitch (Elevator)"
     },
     "mixerInputStabilizedYaw": {
-        "message": "Yaw"
+        "message": "Yaw (Tail)"
     },
     "mixerInputStabilizedCollective": {
-        "message": "Collective"
+        "message": "Collective Pitch"
     },
     "mixerInputStabilizedThrottle": {
         "message": "Throttle"
@@ -3377,13 +3377,13 @@
         "message": "<p>Apply changes to the throttle range immediately.</p><p>Throttle Override can be set to 0%, 1%, and 100% to view changes to Motor Off, Low Throttle and High Throttle respectively.</p>"
     },
     "motorsThrottleMinimum": {
-        "message": "Low Throttle"
+        "message": "Low Throttle (Motor Idle)"
     },
     "motorsThrottleMinimumHelp": {
         "message": "This PWM value is sent to the ESC/servo at low throttle (idle throttle with ICE)."
     },
     "motorsThrottleMaximum": {
-        "message": "High Throttle"
+        "message": "High Throttle (Motor On)"
     },
     "motorsThrottleMaximumHelp": {
         "message": "This PWM value is sent to the ESC/servo at full throttle."
@@ -4646,10 +4646,10 @@
         "message": "Roll"
     },
     "controlAxisPitch": {
-        "message": "Pitch"
+        "message": "Pitch (Elevator)"
     },
     "controlAxisYaw": {
-        "message": "Yaw"
+        "message": "Yaw (Tail)"
     },
     "controlAxisCollective": {
         "message": "Collective"
@@ -4865,7 +4865,7 @@
         "message": "Roll Bandwidth"
     },
     "profilesGyroCutoffPitch": {
-        "message": "Pitch Bandwidth"
+        "message": "Pitch (Elevator) Bandwidth"
     },
     "profilesGyroCutoffYaw": {
         "message": "Yaw (Tail) Bandwidth"
@@ -4877,7 +4877,7 @@
         "message": "Roll D-term Cutoff"
     },
     "profilesDtermCutoffPitch": {
-        "message": "Pitch D-term Cutoff"
+        "message": "Pitch (Elevator) D-term Cutoff"
     },
     "profilesDtermCutoffYaw": {
         "message": "Yaw (Tail) D-term Cutoff"
@@ -4889,7 +4889,7 @@
         "message": "Roll B-term Cutoff"
     },
     "profilesBtermCutoffPitch": {
-        "message": "Pitch B-term Cutoff"
+        "message": "Pitch (Elevator) B-term Cutoff"
     },
     "profilesBtermCutoffYaw": {
         "message": "Yaw (Tail) B-term Cutoff"
@@ -5153,25 +5153,25 @@
         "message": "Loaded Rate Profile: <strong class=\"message-positive\">$1</strong>"
     },
     "rateSetupSubTab": {
-        "message": "Rate Profile #$1"
+        "message": "Rate Profile (Bank) #$1"
     },
     "rateSetupSubTab1": {
-        "message": "Rate Profile #1"
+        "message": "Rate Profile (Bank) #1"
     },
     "rateSetupSubTab2": {
-        "message": "Rate Profile #2"
+        "message": "Rate Profile (Bank) #2"
     },
     "rateSetupSubTab3": {
-        "message": "Rate Profile #3"
+        "message": "Rate Profile (Bank) #3"
     },
     "rateSetupSubTab4": {
-        "message": "Rate Profile #4"
+        "message": "Rate Profile (Bank) #4"
     },
     "rateSetupSubTab5": {
-        "message": "Rate Profile #5"
+        "message": "Rate Profile (Bank) #5"
     },
     "rateSetupSubTab6": {
-        "message": "Rate Profile #6"
+        "message": "Rate Profile (Bank) #6"
     },
     "rateSetupRates": {
         "message": "Rates"
@@ -6361,7 +6361,7 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDPitch": {
-        "message": "Pitch axis PID gains"
+        "message": "Pitch (Elevator) axis PID gains"
     },
     "osdTextElementPIDYaw": {
         "message": "PID yaw",
