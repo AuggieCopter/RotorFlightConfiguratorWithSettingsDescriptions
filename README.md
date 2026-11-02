@@ -1,2 +1,2 @@
 # RotorFlightConfiguratorWithSettingsDescriptions
-RtorFlight configurator with extended setting descriptions
+RotorFlight configurator with extended setting descriptions
